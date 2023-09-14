@@ -27,7 +27,7 @@ Puedes combinar este sensor con muchos otros sensores que funcionan con la Raspb
 ![Conexiones.](https://pimylifeup.com/wp-content/uploads/2019/05/Raspberry-Pi-VEML6075-UV-Sensor-Wiring-Schematic.png)
 
 ## Codigo
-'''
+```
         import time
         import board
         import busio
@@ -37,4 +37,4 @@ Puedes combinar este sensor con muchos otros sensores que funcionan con la Raspb
         while True:
             print(veml.uv_index)
             time.sleep(1)
-'''
+```
